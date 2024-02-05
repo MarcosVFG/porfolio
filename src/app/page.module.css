@@ -1,0 +1,170 @@
+.main {
+    height: 100%;
+    background-color: var(--gray-800);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.quadranteUm {
+    display: flex;
+    font-family: var(--font-cascadia);
+    align-items: center;
+    gap: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    gap: 0.5rem;
+}
+
+.numbers span {
+    color: var(--gray-300);
+}
+
+.fade {
+    opacity: 30%;
+}
+
+.fadeTwo {
+    opacity: 60%;
+}
+
+.barOne {
+    display: flex;
+    height: 35rem;
+    border: 1px solid var(--gray-300);
+}
+
+.barTwo {
+    display: flex;
+    height: 25rem;
+    border: 1px solid var(--gray-300);
+    margin: 2rem;
+}
+
+.barThree {
+    display: flex;
+    height: 15rem;
+    border: 1px solid var(--gray-300);
+}
+
+.textColor {
+    color: var(--white-000);
+}
+
+.textColor p{
+    padding-top: 0.35rem;
+}
+
+.hello {
+    color: var(--yellow-300);
+}
+
+.marcos {
+    color: var(--green-200);
+}
+
+.full {
+    color: var(--purple-500);
+}
+
+.innovative {
+    color: var(--blue-200);
+}
+
+.quadranteDois {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-right: 5rem;
+    padding-bottom: 6rem;
+    font-family: var(--font-cascadia);
+}
+
+.marcosRight {
+    font-size: 8rem;
+    color: var(--green-200);
+}
+
+.marcosRightTwo {
+    font-size: 8rem;
+    margin-top: -2.5rem;
+    color: var(--green-200);
+}
+
+.help {
+    font-size: 5rem;
+    color: var(--white-000);
+    margin-top: -0.5rem;
+    margin-bottom: 3rem;
+}
+
+.crea {
+    color: var(--red-200);
+}
+
+.create {
+    font-size: 5rem;
+    margin-top: -1.5rem;
+}
+
+.create span {
+    position: relative;
+}
+
+.create span::before {
+    content:"";
+    color: var(--purple-500);
+    animation: palavras 20s infinite;
+}
+
+.create span::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-left: 8px solid var(--purple-500);
+    right: -10px;
+    animation: digitando 20s steps(20) infinite;
+    width: calc(100% + 0.7rem);
+    background-color: var(--gray-800);
+}
+
+@keyframes digitando {
+    10% , 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
+        width: 0;
+    }
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85%{
+        width: calc(100% + 0.7rem);
+    }
+}
+
+@keyframes palavras {
+    0%,20% {
+        content: "QUICKLY";
+    }
+    21%,40% {
+        content: "QUALITATIVELY";
+    }
+    41%,60% {
+    content: "BEAUTIFULLY";
+    }
+    61%,80% {
+        content: "EFFICIENTLY";
+    }
+    81%,100% {
+    content: "CREATIVELY";
+    }
+}
+
+@media (min-height: 940px) {
+    .quadranteUm {
+        margin-bottom: 10.6rem;
+    }
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--gray-800);
+}
+
+.main > h1 {
+    color: var(--green-200);
+    font-size: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+.paragraph {
+    width: 50%;
+    color: var(--white-000);
+    font-family: 'Cascadia';
+    padding-bottom: 2rem;
+}
+
+.border {
+    display: inline-block;
+    background: rgb(31,30,37);
+    background: linear-gradient(90deg, rgba(31,30,37,1) 0%, rgba(98,98,99,1) 51%, rgba(31,30,37,1) 100%); 
+    width: 60%;
+    height: 3px;
+    margin-bottom: 1.5rem;
+    margin-top: 4rem;
+}
+
+.borderTwo {
+    display: inline-block;
+    background: rgb(31,30,37);
+    background: linear-gradient(90deg, rgba(31,30,37,1) 0%, rgba(98,98,99,1) 51%, rgba(31,30,37,1) 100%); 
+    width: 60%;
+    height: 3px;
+    margin-top: 1.5rem;
+}
+
+.borderLast {
+    display: inline-block;
+    background: rgb(31,30,37);
+    background: linear-gradient(90deg, rgba(31,30,37,1) 0%, rgba(98,98,99,1) 51%, rgba(31,30,37,1) 100%); 
+    width: 60%;
+    height: 3px;
+    margin-top: 1.5rem;
+    margin-bottom: 6rem;
+}
+
+.github {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    font-family: 'Cascadia';
+}
+
+.secondaryP {
+    font-size: 1.5rem;
+    color: var(--yellow-300);
+}
+
+.principalP{
+    font-size: 1.5rem;
+    color: var(--white-000);
+}
+
+@media (min-height: 940px) {
+    .borderLast {
+        margin-bottom: 10rem;
+    }
+}

@@ -1,0 +1,100 @@
+.main {
+    display: flex;
+}
+
+.quadranteOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    background-color: var(--gray-500);
+    border-bottom: 3px solid var(--gray-800);
+    padding-top: 2rem;
+    color: var(--white-000);
+    cursor: default;
+}
+
+.setaPlus {
+  display: flex;
+  text-align: center;
+}
+
+.setaPlus > p {
+  font-size: 1rem;
+  text-align: center;
+  padding-right: 3rem;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+.divImage {
+  padding-left: 4rem;
+}
+
+.quadranteTwo {
+    background-color: var(--gray-800);
+    width: 75%;
+    height: 100%;
+    gap: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.arrow {
+  cursor: pointer;
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+.arrow::after {
+  display: inline-block;
+}
+
+.open{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.hiddenList {
+  display: none;
+}
+
+.visibleList {
+  display: block;
+}
+
+.teste{
+  transform: rotate(-90deg);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.skills {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 3.5rem;
+  margin-top: 0.5rem;
+}
+
+.css {
+  padding-left: 0.3rem;
+}
+
+.imgPlusText {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.imgPlusText h1 {
+  color: var(--white-000);
+  font-family: var(--font-cascadia);
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
