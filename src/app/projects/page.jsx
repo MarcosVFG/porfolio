@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function Projects () {
   return (
     <div className={styles.main}>
-      <h1>//TOP PROJECTS</h1>
+      <h1>{'//'}TOP PROJECTS</h1>
       <div className={styles.content}>
         <div className={styles.border}>
           <h1>_feed</h1>

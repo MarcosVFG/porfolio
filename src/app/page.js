@@ -37,19 +37,19 @@ export default function Home() {
             <span className={styles.barThree}></span>
           </div>
           <div className={styles.textColor}>
-            <p className={styles.hello}> &lt;hello&gt;</p>
-            <p>Hello, my name is <span className={styles.marcos}>Marcos</span>()&#123; </p>
+            <p className={styles.hello}> {'<'}hello{'>'}</p>
+            <p>Hello, my name is <span className={styles.marcos}>Marcos</span>(){'{'} </p>
             <p>I am a <span className={styles.full}>Full-Stack developer</span></p>
             <p>crafting <span className={styles.innovative}>innovative solutions</span></p>
             <p>that seamlessly blend </p>
             <p><span className={styles.crea}>creativity</span> and  <span className={styles.crea}>functionality </span></p>
-            <p>&#125;</p>
+            <p>{'}'}</p>
           </div>
         </div>
         <div className={styles.quadranteDois}> 
-          <h1 className={styles.marcosRight}>&lt;MARCOS</h1>
-          <h1 className={styles.marcosRightTwo}>VINICIUS&gt;</h1>
-          <p className={styles.help}>//I HELP YOU</p>
+          <h1 className={styles.marcosRight}>{'<'}MARCOS</h1>
+          <h1 className={styles.marcosRightTwo}>VINICIUS{'>'}</h1>
+          <p className={styles.help}>{'//'}I HELP YOU</p>
           <div className={styles.create}>
             <span></span>
           </div>
