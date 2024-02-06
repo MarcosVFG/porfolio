@@ -98,3 +98,26 @@
   font-size: 1.5rem;
   padding-bottom: 1rem;
 }
+
+
+@media (max-width: 700px) {
+  .quadranteTwo {
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+  
+.quadranteOne {
+  display: none;
+}
+}
+
+@media (min-width: 701px) and (max-width: 1000px) {
+  .quadranteTwo {
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+  }
+  
+.quadranteOne {
+  display: none;
+}
+}

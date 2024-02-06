@@ -26,3 +26,20 @@
     padding-right: 2rem;
     padding-left: 2rem;
 }
+
+@media (max-width: 600px) {
+    .main h1 {
+        font-size: 0.8rem;
+        text-align: center;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .imagens {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .imagensLast {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}

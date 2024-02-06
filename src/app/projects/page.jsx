@@ -14,6 +14,7 @@ export default function Projects () {
                 width={528}
                 height={272}
                 alt="Feed"
+                className={styles.opa}
           />
           <p>This project is a social network feed where comments can be added, deleted and others.</p>
           <Link href={'https://feed-social-media.vercel.app/'} className={styles.link} target="_blank">feed-social-media.vercel.app</Link>
@@ -25,6 +26,7 @@ export default function Projects () {
                 width={528}
                 height={272}
                 alt="Feed"
+                className={styles.opa}
           />
           <p>This project was an API consumption study, it shows a photo of the day by NASA.</p>
           <Link href={'https://nasa-jet.vercel.app/'} className={styles.link} target="_blank">nasa-jet.vercel.app</Link>
@@ -36,6 +38,7 @@ export default function Projects () {
                 width={528}
                 height={272}
                 alt="Feed"
+                className={styles.opa}
           />
           <p>A simple responsive website with only HTML and CSS</p>
           <Link href={'https://marcosvfg.github.io/First/'} className={styles.link} target="_blank">marcosvfg.github.io/First/</Link>

@@ -163,6 +163,40 @@
     }
 }
 
+@media (max-width: 1179px) {
+    .barTwo {
+        margin: 1rem;
+    }
+    .numbers {
+        padding-left: 1.5rem;
+    }
+    .textColor p {
+        font-size: 0.9rem;
+    }
+    .quadranteDois {
+        text-align: center;
+    }
+    .quadranteDois h1{
+        font-size: 2.8rem;
+    }
+    .quadranteDois p{
+        font-size: 2.8rem;
+    }
+    .create {
+        font-size: 2.8rem;
+    }
+    .marcosRightTwo {
+        margin-top: -1rem;
+    }
+    .quadranteDois {
+        padding-right: 0;
+        padding-bottom: 6rem;
+    }
+    .help {
+        margin-top: 1rem;
+    }
+}
+
 @media (min-height: 940px) {
     .quadranteUm {
         margin-bottom: 10.6rem;

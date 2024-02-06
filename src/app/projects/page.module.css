@@ -4,7 +4,6 @@
     align-items: center;
     height: 100%;
     background-color: var(--gray-800);
-    padding-left: 8rem;
     padding-bottom: 5rem;
 }
 
@@ -16,10 +15,9 @@
 }
 
 .main > h1 {
-    font-size: 1.7rem;
+    font-size: 2rem;
     color: var(--green-200);
     padding-top: 6rem;
-    align-self: flex-start;
 }
 
 .border {
@@ -62,4 +60,28 @@
 
 .teste {
     filter: blur(7px);
+}
+
+@media (max-width: 600px) {
+
+    .opa {
+        width: 200px;
+        height: 150px;
+    }
+    .teste {
+        width: 200px;
+        height: 150px;
+    }
+    .border {
+        width: 19rem;
+    }
+    .border h1{
+        font-size: 1rem;
+    }
+    .border p{
+        font-size: 1rem;
+    }
+    .link {
+        font-size: 1rem;
+    }
 }

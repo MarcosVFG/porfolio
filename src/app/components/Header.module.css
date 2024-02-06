@@ -1,12 +1,15 @@
 .header {
+    display: flex;
+    flex-direction: column;
     height: 100%;
     background-color: var(--gray-500);
-    font-family: var(--font-cascadia);  
+    font-family: var(--font-cascadia);
 }
 
 .bottons {
     display: flex;
     align-items: center;
+    width: 100%;
     gap: 1rem;
     padding-top: 1rem;
     padding-left: 2rem;
@@ -92,3 +95,33 @@
     color: var(--white-000);
     line-height: 2.5rem;
 }
+
+
+@media (max-width: 600px) {
+    .header {
+        width: 100%;
+    }
+    .nav {
+        display:flex;
+        font-size: 0.980rem;
+    }
+    .nav a{
+        padding: 2px;
+        transition: color 0.2s ease-in-out;
+        text-decoration: none;
+    }    
+  }
+  @media (min-width: 601px) and (max-width: 1000px) {
+    .header {
+        width: 100%;
+    }
+    .nav {
+        display:flex;
+        font-size: 1.3rem;
+    }
+    .nav a{
+        padding: 10px;
+        transition: color 0.2s ease-in-out;
+        text-decoration: none;
+    }    
+  }

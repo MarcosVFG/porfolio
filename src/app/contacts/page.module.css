@@ -23,6 +23,7 @@
     color: var(--white-000);
     font-family: 'Cascadia';
     padding-bottom: 2rem;
+    text-align: center;
 }
 
 .border {
@@ -74,5 +75,41 @@
 @media (min-height: 940px) {
     .borderLast {
         margin-bottom: 10rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .main > h1 {
+        font-size: 2rem;
+    }
+
+    .paragraph{
+        font-size: 0.85rem;
+    }
+
+    .border {
+        width: 100%;
+    }
+
+    .borderTwo {
+        width: 100%;
+    }
+
+    .borderLast {
+        width: 100%;
+    }
+
+    .github {
+        width: 90%;
+    }
+
+    .github p{
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1000px) {
+    .github p{
+        font-size: 1rem;
     }
 }
