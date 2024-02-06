@@ -92,6 +92,8 @@
     .two {
         width: 80%;
         font-size: 0.7rem;
+        display: flex;
+        flex-direction: column;
     }
     .two h1 {
         padding-left: 2rem;
@@ -99,10 +101,6 @@
     
     .two p {
         padding-left: 2rem;
-    }
-    .two {
-        display: flex;
-        flex-direction: column;
     }
     .three {
         display: flex;
@@ -122,5 +120,8 @@
     }
     .three {
         margin-right: 7rem;
+    }
+    .main {
+        height: 110vh;
     }
 } 
