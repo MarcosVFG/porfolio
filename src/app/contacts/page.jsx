@@ -24,9 +24,9 @@ export default function Contacts() {
 
             <span className={styles.border}></span>
             <div className={styles.github}>
-                <p className={styles.secondaryP}>{'//'}gmail</p>
-                <p className={styles.principalP}>marcosvfrontend@gmail.com</p>
-                <p className={styles.secondaryP}>{'//'}gmail</p>
+                <p className={styles.secondaryP}>{'//'}email</p>
+                <p className={styles.principalP}>contato@markindev.tech</p>
+                <p className={styles.secondaryP}>{'//'}email</p>
             </div>
             <span className={styles.borderLast}></span>
         </div>

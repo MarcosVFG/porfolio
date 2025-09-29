@@ -16,7 +16,7 @@ export default function Footer() {
                     />
                 </div>
             </Link>
-            <Link href={"mailto:marcosvfrontend@gmail.com"} target="_blank"> 
+            <Link href={"mailto:contato@markindev.tech"} target="_blank"> 
                 <div className={styles.imagens}>
                     <Image
                         src="/gmail.png"

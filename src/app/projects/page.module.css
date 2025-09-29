@@ -58,6 +58,12 @@
     color: var(--yellow-300);
 }
 
+.linkDois {
+    padding-bottom: 1.3rem;
+    text-decoration: none;
+    color: var(--white-000);
+}
+
 .teste {
     filter: blur(7px);
 }
